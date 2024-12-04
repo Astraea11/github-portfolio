@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/port.css">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="port.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   <title>Github Portfolio</title>
 </head>
+
 <body>
   <header>
     <h1>Welcome to My Portfolio</h1>
-    <p>it's just a work in progress</p>
   </header>
   <nav>
-    <a href="#">About</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </nav>
 
-  <main class ="text">
-    <section id="about">
+  <div class="text">
+    <div id="about">
       <h2>About Me</h2>
-      <p>Hello! I'm Maricar, a student. This is a wip so there's nothing much going on.</p>
-    </section>
+      <p>Hello! I'm Maricar, a student. This is a work in progress, so there's nothing much going on for now.</p>
+    </div>
 
-    <section id="projects">
+    <div id="projects">
       <h2>My Projects</h2>
-      <ul>
-        <li><a href="https://github.com/Astraea11/website-code.git" target="_blank">Website Repository Link</a></li>
-        <li><a href="#" target="_blank">Project</a></li>
-        <li><a href="#" target="_blank">Project</a></li>
+      <ul class="project-list">
+        <li><a href="https://github.com/Astraea11/website-code.git" target="_blank"><i class="ri-github-fill size"></i> Website Repository Link</a></li>
+        <li><a href="#" target="_blank"><i class="ri-github-fill size"></i> Project 1</a></li>
+        <li><a href="#" target="_blank"><i class="ri-github-fill size"></i> Project 2</a></li>
       </ul>
-    </section>
+    </div>
 
-    <section id="contact">
+    <div id="contact">
       <h2>Contact Me</h2>
       <p>Feel free to reach out to me via email at <a href="#">maricar.seron.solamo@gmail.com</a>.</p>
-    </section>
-  </main>
+    </div>
+  </div>
 
   <footer>
     <p>&copy; 2024 Solamo. All rights reserved.</p>
