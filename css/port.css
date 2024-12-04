@@ -1,43 +1,96 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f9;
-  color: #333;
-}
-header {
-  background: #333;
-  color: #fff;
-  padding: 1rem 0;
-  text-align: center;
-}
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
-nav {
-  text-align: center;
-  margin: 1rem 0;
-}
-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #007BFF;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-main {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
-footer {
-  text-align: center;
-  background: #333;
-  color: #fff;
-  padding: 1rem 0;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2f;
+    color: #ddd; 
+    line-height: 1.6;
+  }
+
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    border-bottom: 3px solid #007BFF; 
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+  }
+  header p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+
+  nav {
+    background-color: #444;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff; 
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background: #555; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  nav a:hover {
+    background: #007BFF;
+    color: #fff;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #2e2e42; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Sections */
+  section {
+    margin-bottom: 2rem;
+  }
+  section h2 {
+    color: #fff;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  section p,
+  section ul {
+    color: #ddd; 
+  }
+  section ul {
+    padding-left: 1rem;
+  }
+  
+ 
+  footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: relative; 
+    margin-top: 2rem;
+  }
+  footer p {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+    main {
+      padding: 1rem;
+    }
+  }
