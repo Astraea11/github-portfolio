@@ -2,34 +2,35 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: #151515; /* Updated background */
-    color: #D3B88D; /* Set text color to match design */
+    background-color: #151515; 
+    color: #FFFFFF;; 
   }
   
   header {
-    background: #D3B88D; /* Updated header background */
+    background: #D3B88D; 
     padding: 10px 0;
     display: flex;
     gap: 15px;
     align-items: center;
-    justify-content: center; /* Center content horizontally */
+    justify-content: center; 
   }
   
   header h1 {
     margin: 0;
     font-size: 2.5rem;
-    color: #333; /* Title color */
+    color: #333; 
   }
   
   nav {
-    background-color: #676767; /* Matches header-bottom */
+    background-color: #676767;
     padding: 10px 0;
   }
   
   nav ul {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
+    display: flex;           
+    justify-content: center; 
+    align-items: center;    
     margin: 0;
     padding: 0;
   }
@@ -46,14 +47,14 @@ body {
   }
   
   nav a:hover {
-    background-color: #8D8D8D; /* Hover effect */
+    background-color: #8D8D8D; 
   }
   
   main {
     padding: 2rem;
     max-width: 800px;
     margin: auto;
-    color: #D3B88D; /* Match body text */
+    color: #D3B88D;
   }
   
   footer {
@@ -66,3 +67,6 @@ body {
     bottom: 0;
     z-index: 1;
   }
+a {
+    color: white !important;
+}
